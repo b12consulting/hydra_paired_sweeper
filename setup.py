@@ -10,7 +10,7 @@ with open("README.md") as fh:
         long_description=LONG_DESC,
         long_description_content_type="text/markdown",
         url="www.b12-consulting.com",
-        packages=find_namespace_packagas(include=["hydra_plugins.*"]),
+        packages=find_namespace_packages(include=["hydra_plugins.*"]),
         classifiers=[
             "License :: OSI Approved :: MIT License",
             "Programming Language :: Python :: 3.10",
